@@ -23,6 +23,11 @@ pipeline {
             steps {
                 sh './jenkins/scripts/deliver.sh' 
             }
+        },
+        stage('added stage'){
+            steps{
+                sh "hey jenkins is pooling for requst nice"
+            }
         }
     }
 }
