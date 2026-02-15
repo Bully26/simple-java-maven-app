@@ -26,7 +26,7 @@ pipeline {
         }
         stage('added stage'){
             steps{
-                sh "hey jenkins is pooling for requst nice"
+                sh "echo 'hey jenkins is pooling for requst nice' "
             }
         }
     }
